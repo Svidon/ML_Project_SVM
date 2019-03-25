@@ -1,5 +1,4 @@
 # ML_Project_SVM
----
 
 This project aims at using an SVM (in this case with `rbf` kernel) to predict if the email described by the data given (more infos in `spambase.names` and `spambase.DOCUMENTATION`) are spam mails or not.
 The process involves performing a GridSearch on `gamma` and `C` parameters of the SVM classifier, using a 3Fold cross-validation.
